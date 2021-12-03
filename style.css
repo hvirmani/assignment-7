@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 1%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 2vh 2vw;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+input[type="button"],
+button {
+  max-width: 100px;
+}
+header h3 {
+  text-align: center;
+}
+td {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: none;
+}
+#resume {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 2px solid gray;
+  padding: 1rem;
+  margin: 2vh 2vw;
+}
+#resume li {
+  display: flex;
+  gap: 0.5rem;
+  list-style: circle;
+}
+#resume li a {
+  color: red;
+}
